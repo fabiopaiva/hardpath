@@ -103,3 +103,16 @@ button[name="v"] {background-image: url("../img/keyboard/v.jpg");}
 button[name="b"] {background-image: url("../img/keyboard/b.jpg");}
 button[name="n"] {background-image: url("../img/keyboard/n.jpg");}
 button[name="m"] {background-image: url("../img/keyboard/m.jpg");}
+
+.zoom-preview-container {
+  width: 100%;
+  overflow: hidden;
+}
+
+.zoom-preview {
+  width: 100%;
+  height: 100%;
+  background-size: cover;
+  transform: scale(3);
+  background-repeat: no-repeat;
+}
